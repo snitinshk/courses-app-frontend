@@ -1,0 +1,43 @@
+@import "../../scss/mixin";
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid palegoldenrod;
+    min-height: 500px;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 10px 20px 10px;
+    justify-content:center
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    width:300px
+}
+
+.loginButton{
+    @include button;
+    border-color:#0cc083;
+    width: 100px;
+    font-size: medium;
+}
+
+.loginInput{
+    @include input;
+    border-color: orange
+}
+
+.loginForm > div:last-child{
+    margin-top: 30px;
+}
+
+.error{
+    @include error
+}
+.success{
+    color: #0ebb19;
+    font-weight: 500;
+}

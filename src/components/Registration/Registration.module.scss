@@ -1,0 +1,39 @@
+@import "../../scss/mixin";
+
+.registrationContainer{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid palegoldenrod;
+    min-height: 500px;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 10px 20px 10px;
+    justify-content:center
+}
+.registrationForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    width:300px
+}
+
+.registerButton{
+    @include button;
+    border-color:#0cc083;
+    width: 100px;
+    font-size: medium;
+}
+
+.registerInput{
+    @include input;
+    border-color: orange
+}
+
+.registrationForm > div:last-child{
+    margin-top: 30px;
+}
+
+.error{
+    @include error
+}

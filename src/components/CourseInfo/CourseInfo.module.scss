@@ -1,0 +1,79 @@
+.coursesInfoContainer {
+    border: 2px solid #27ece2;
+    height: 1000px;
+    margin-top: 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+.courseLabel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    font-size: xx-large;
+}
+.courseBack{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.courseDetails{
+    display: flex;
+    align-items: baseline;
+}
+
+.courseCard {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    border: 1px outset hsl(145, 88%, 37%);
+    width: 100%;
+    min-height: 200px;
+    align-items: center;
+}
+
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding-bottom: 20px;
+    gap: 10px;
+    height: 100%;
+    margin: 10px 0px 10px 20px;
+}
+
+.courseMeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    height: 100%;
+}
+
+.courseMeta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.showCourseBtn {
+    border: 1px outset rgb(149, 0, 255);
+    background-color: white;
+    min-height: 30px;
+    min-width: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+    position:relative;
+    left:30%;
+}
+
+.courseBox span:first-child {
+    font-weight: bold;
+}
+
+.courseBox span:last-child {
+    margin-left: 5px;
+}

@@ -1,0 +1,19 @@
+@mixin button {
+    background-color:white;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid;
+    height: 30px;
+    cursor: pointer;
+  }
+
+@mixin input {
+    min-height: 25px;
+    width: 250px;
+    border: 1px outset rgb(149, 0, 255);
+}
+
+@mixin error{
+    color: red;
+    font-weight: 500;
+}

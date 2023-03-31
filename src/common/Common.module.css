@@ -1,0 +1,6 @@
+.inputComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 5px;
+}

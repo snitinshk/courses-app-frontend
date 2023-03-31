@@ -1,0 +1,100 @@
+.coursesContainer {
+    border: 2px solid #27ece2;
+    min-height: 100%;
+    margin-top: 20px;
+    margin: 20px 10px 20px 10px;
+}
+
+.coursesContainer>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+
+.searchBar {
+    display: flex;
+    width: 100%;
+}
+
+.searchBar button {
+    border: 1px outset rgb(149, 0, 255);
+    background-color: white;
+    min-height: 30px;
+    min-width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.searchBar button:last-child {
+    border: 1px outset rgb(149, 0, 255);
+    min-height: 30px;
+    min-width: 200px;
+    margin-left: 760px;
+    cursor: pointer;
+}
+
+.searchBar input {
+    min-width: 350px;
+    min-height: 25px;
+}
+
+.courseCard {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    border: 1px outset hsl(145, 88%, 37%);
+    width: 100%;
+    min-height: 200px;
+    align-items: center;
+}
+
+.courseDetail {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding-bottom: 20px;
+    gap: 10px;
+    height: 100%;
+    margin: 10px 0px 10px 20px;
+}
+
+.courseMeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    height: 100%;
+}
+
+.courseMeta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.showCourseBtn {
+    border: 1px outset rgb(149, 0, 255);
+    background-color: white;
+    min-height: 30px;
+    min-width: 100px;
+    margin-top: 30px;
+    text-decoration-style: solid;
+    cursor: pointer;
+    position:relative;
+}
+
+.courseBox span:first-child {
+    font-weight: bold;
+}
+
+.courseBox span:last-child {
+    margin-left: 5px;
+}
+
+.actionBtns{
+    display: flex;
+    gap: 5px;
+}
